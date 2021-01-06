@@ -6,11 +6,14 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=ml_kubermnetes
+dockerpath=kramiyer/drwho
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username kramiyer
+docker tag ml-kubermnetes $dockerpath
 
 # Step 3:
 # Push image to a docker repository.
+docker push $dockerpath

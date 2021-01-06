@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build -t ml_kubermnetes . 
+docker build -t ml-kubermnetes . 
 
 # Step 2: 
 # List docker images
@@ -13,4 +13,4 @@ docker  image ls
 # Step 3: 
 # Run flask app
 
-docker run -p 8080:80 ml_kubermnetes
+docker run -p 8080:80 ml-kubermnetes
