@@ -19,7 +19,7 @@ Our project goal is to operationalize this working, machine learning microservic
 - Deploy a container using Kubernetes and make a prediction
 - Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
+
 
 ---
 
